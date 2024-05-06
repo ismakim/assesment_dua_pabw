@@ -1,9 +1,9 @@
 <?php
 // Koneksi ke database
 $servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "nama_database";
+$username = "root";
+$password = "";
+$dbname = "assesment_dua_pabw";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
