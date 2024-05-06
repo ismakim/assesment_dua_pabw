@@ -1,5 +1,5 @@
 $.ajax({
-    url:'get_lowongan.php',
+    url:'get_data.php',
     dataType: 'json',
     success: function(data) {
         console.log(data);
