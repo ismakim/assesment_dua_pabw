@@ -11,7 +11,7 @@ if ($conn->connect_error) {
 }
 
 // Query untuk mengambil data dari tabel
-$sql = "SELECT * FROM tabel_penyakit_tidak_menular";
+$sql = "SELECT * FROM penyakit";
 $result = $conn->query($sql);
 
 // Format data menjadi JSON
